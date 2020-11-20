@@ -8,7 +8,7 @@ Almost beat every model in 2nd Data Prefetching Championship.
 
 `Markov_chain_prefetcher.c`
 
-The state of Markov chain is defined as the difference between the prefetched offset and the previous offset (the same page is between - 63 and + 63). The state quantity is limited to 46, also, to satisfy that offset is a multiple of 2,3,5. In order to reduce the storage capacity, some ideas is refered to "Pangloss: Novel Markov chain prefetcher".
+The state of Markov chain is defined as the difference between the prefetched offset and the previous offset (the same page is between - 63 and + 63). The state quantity is limited to 46, also, to satisfy that offset is a multiple of 2,3,5. In order to reduce the storage capacity, some ideas refer to "Pangloss: Novel Markov chain prefetcher".
 
 `Markov_chain_ampm.c`
 
