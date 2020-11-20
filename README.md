@@ -18,6 +18,7 @@ you can check the `exmaple_prefetchers/` for implements'details
 ### Results
 
 |traces/IPCA |best-offset prefetcher(champion)|  Markov chain prefetcher|
+|----|----|----|
 |gcc_trace2|0.343890|**0.344170**|
 |lbm_trace2|**1.998883**|1.976280|
 |libquantum_trace2|3.254704|**3.281847**|
@@ -28,6 +29,7 @@ you can check the `exmaple_prefetchers/` for implements'details
 |omnetpp_trace2|2.155531|**2.2042942**|
 
 |traces/IPC|ampm|slim_ampm(runner-up)|  best offset(champion)|  markov chain | markov chain + ampm(ours)|
+|----|----|----|----|----|----|
 |gcc_trace2|0.339157|<font color='blue'>0.345508</font>|0.343890|   0.344170|<font color='red'> 0.350100 </font>|
 |lbm_trace2|2.035000|<font color='blue'>2.035816</font>|1.998883|   1.976280|<font color='red'>2.067567</font>|
 |libquantum_trace2|   3.274124|  3.276598|3.254704|<font color='red'>3.281847</font>|<font color='blue'>3.280319</font>|
